@@ -26,4 +26,9 @@
     ;; load up the starter kit
     (org-babel-load-file (expand-file-name "starter-kit.org" starter-kit-dir))))
 
+;;; edit by max 2014-02-10
+
+
+
 ;;; init.el ends here
+(put 'upcase-region 'disabled nil)
