@@ -2,6 +2,10 @@
 set fenc=utf-8
 set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936
 
+" 设定开启鼠标 
+set mouse=a
+
+let g:solarized_termcolors=16
 
 " 记录上次打开位置
 autocmd BufReadPost * 
@@ -15,21 +19,16 @@ filetype on
 " 载入文件类型插件
 filetype plugin on
 
-
 " 为特定文件类型载入相关缩进文件
 filetype indent on
 
 set background=dark
-
-
-
 
 " 带有如下符号的单词不要被换行分割
 set iskeyword+=_,$,@,%,#,-
 
 " 语法高亮
 syntax on
-
 
 " 字符间插入的像素行数目
 set linespace=0
@@ -96,9 +95,6 @@ filetype plugin on     " enables filetype specific plugins
 "pydiction 1.2(python语法高亮)
 filetype plugin on
 
-" python 语法自动完成
-autocmd FileType python set omnifunc=pythoncomplete
-let g:pydiction_location = '~/.vim/after/ftplugin/pydiction/complete-dict'
 
 " 为pyflakes的高亮提示设置颜色
 if has("gui_running") 
@@ -125,6 +121,7 @@ call vundle#rc()
 " NERDTree setting
 map <F7> :NERDTreeToggle<CR>
 imap <F7> <ESC>:NERDTreeToggle<CR>
+
  
 " let Vundle manage Vundle
 " required! 
@@ -153,6 +150,7 @@ Bundle 'https://github.com/vim-scripts/taglist.vim'
 Bundle 'https://github.com/vim-scripts/The-NERD-Commenter'
 Bundle 'https://github.com/Valloric/YouCompleteMe'
 Bundle 'https://github.com/spf13/vim-autoclose'
+Bundle 'https://github.com/vim-scripts/Solarized'
 
 filetype plugin indent on     " required!
 "
