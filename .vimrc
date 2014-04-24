@@ -123,6 +123,8 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " NERDTree setting
+map <F7> :NERDTreeToggle<CR>
+imap <F7> <ESC>:NERDTreeToggle<CR>
  
 " let Vundle manage Vundle
 " required! 
@@ -146,6 +148,11 @@ Bundle 'python_ifold'
 
 Bundle 'git://github.com/Lokaltog/vim-powerline.git'
 Bundle 'https://github.com/vim-scripts/The-NERD-tree'
+Bundle 'https://github.com/vim-scripts/ctags.vim'
+Bundle 'https://github.com/vim-scripts/taglist.vim'
+Bundle 'https://github.com/vim-scripts/The-NERD-Commenter'
+Bundle 'https://github.com/Valloric/YouCompleteMe'
+Bundle 'https://github.com/spf13/vim-autoclose'
 
 filetype plugin indent on     " required!
 "
