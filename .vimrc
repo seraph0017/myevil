@@ -6,6 +6,7 @@ set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936
 set mouse=a
 
 let g:solarized_termcolors=16
+let g:tabular_loaded = 1
 
 " 记录上次打开位置
 autocmd BufReadPost * 
@@ -67,7 +68,7 @@ set laststatus=2
 set autoindent
 
 " 显示行号
-" set nu
+set nu
 
 set t_Co=256
 
@@ -149,6 +150,10 @@ Bundle 'https://github.com/vim-scripts/The-NERD-Commenter'
 Bundle 'https://github.com/Valloric/YouCompleteMe'
 Bundle 'https://github.com/spf13/vim-autoclose'
 Bundle 'https://github.com/vim-scripts/Solarized'
+Bundle 'https://github.com/myhere/vim-nodejs-complete'
+Bundle 'git://github.com/godlygeek/tabular.git'
+Bundle 'https://github.com/myhere/vim-nodejs-complete.git'
+Bundle 'https://github.com/kchmck/vim-coffee-script.git'
 
 filetype plugin indent on     " required!
 "
