@@ -154,6 +154,8 @@ Bundle 'https://github.com/myhere/vim-nodejs-complete'
 Bundle 'git://github.com/godlygeek/tabular.git'
 Bundle 'https://github.com/myhere/vim-nodejs-complete.git'
 Bundle 'https://github.com/kchmck/vim-coffee-script.git'
+Bundle 'derekwyatt/vim-scala'
+Bundle 'https://github.com/vim-scripts/pyflakes.vim'
 
 filetype plugin indent on     " required!
 "
