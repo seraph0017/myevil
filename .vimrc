@@ -149,6 +149,7 @@ Bundle 'https://github.com/vim-scripts/The-NERD-Commenter'
 Bundle 'https://github.com/Valloric/YouCompleteMe'
 Bundle 'https://github.com/spf13/vim-autoclose'
 Bundle 'https://github.com/vim-scripts/Solarized'
+Bundle 'https://github.com/vim-scripts/pep8'
 
 filetype plugin indent on     " required!
 "
