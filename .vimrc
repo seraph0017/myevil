@@ -67,18 +67,15 @@ set laststatus=2
 set autoindent
 
 " 显示行号
-" set nu
+set nu
 
 set t_Co=256
 
 " 用空格代替制表符
 set expandtab
 
-" 制表符为4统一缩进为4
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
 
+let g:ycm_global_ycm_extra_conf='/home/max/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
 
 " 用空格键来开关折叠
 set foldenable
@@ -91,6 +88,18 @@ map <F2> :%s/\s*$//g<cr>:noh<cr>"
 
 filetype on            " enables filetype detection
 filetype plugin on     " enables filetype specific plugins
+
+" python制表符为4统一缩进为4
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
+autocmd FileType html setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType css setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType eruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
 "pydiction 1.2(python语法高亮)
 filetype plugin on
@@ -149,7 +158,13 @@ Bundle 'https://github.com/vim-scripts/The-NERD-Commenter'
 Bundle 'https://github.com/Valloric/YouCompleteMe'
 Bundle 'https://github.com/spf13/vim-autoclose'
 Bundle 'https://github.com/vim-scripts/Solarized'
-Bundle 'https://github.com/vim-scripts/pep8'
+Bundle 'https://github.com/vim-scripts/pyflakes.vim'
+Bundle 'https://github.com/vim-scripts/Emmet.vim'
+Bundle 'https://github.com/vim-scripts/Markdown'
+Bundle 'https://github.com/mfukar/robotframework-vim'
+Bundle 'https://github.com/kien/ctrlp.vim'
+Bundle 'https://github.com/harveyzh/google_python_style'
+Bundle 'cespare/vim-golang'
 
 filetype plugin indent on     " required!
 "
