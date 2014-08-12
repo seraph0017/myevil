@@ -131,6 +131,8 @@ call vundle#rc()
 " NERDTree setting
 map <F7> :NERDTreeToggle<CR>
 imap <F7> <ESC>:NERDTreeToggle<CR>
+let NERDTreeChDirMode=2
+
 
  
 " let Vundle manage Vundle
