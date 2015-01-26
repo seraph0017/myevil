@@ -133,6 +133,14 @@ map <F7> :NERDTreeToggle<CR>
 imap <F7> <ESC>:NERDTreeToggle<CR>
 let NERDTreeChDirMode=2
 
+autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
+autocmd FileType html setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType css setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType eruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType htmldjango setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType go setlocal tabstop=8 shiftwidth=8 softtabstop=8
 
  
 " let Vundle manage Vundle
@@ -167,13 +175,13 @@ Bundle 'https://github.com/myhere/vim-nodejs-complete.git'
 Bundle 'https://github.com/kchmck/vim-coffee-script.git'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'https://github.com/vim-scripts/pyflakes.vim'
-Bundle 'https://github.com/vim-scripts/pyflakes.vim'
 Bundle 'https://github.com/vim-scripts/Emmet.vim'
 Bundle 'https://github.com/vim-scripts/Markdown'
 Bundle 'https://github.com/mfukar/robotframework-vim'
 Bundle 'https://github.com/kien/ctrlp.vim'
 Bundle 'https://github.com/harveyzh/google_python_style'
 Bundle 'cespare/vim-golang'
+Bundle 'Blackrush/vim-gocode'
 
 filetype plugin indent on     " required!
 "
