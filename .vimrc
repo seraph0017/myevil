@@ -120,6 +120,7 @@ endif
 "let g:miniBufExplMapWindowNavArrows = 1
 "let g:miniBufExplMapCTabSwitchBufs = 1
 "let g:miniBufExplModSelTarget = 1
+autocmd filetype crontab setlocal nobackup nowritebackup
 
 
 set nocompatible               " be iMproved
@@ -193,3 +194,4 @@ filetype plugin indent on     " required!
 "
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
+
