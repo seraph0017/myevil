@@ -1,9 +1,0 @@
-[submodule "Projects/zampda_fe_abs_test/src/ZampCommonLibrary"]
-	path = Projects/zampda_fe_abs_test/src/ZampCommonLibrary
-	url = ssh://git@git.dev.zamplus.com:7999/qa/zampcommonlibrary.git
-[submodule "Projects/zampda_fe_abs_test/src/ZampRequestsLibrary"]
-	path = Projects/zampda_fe_abs_test/src/ZampRequestsLibrary
-	url = ssh://git@git.dev.zamplus.com:7999/qa/zamprequestslibrary.git
-[submodule "Projects/zampda_fe_abs_test/src/ZampMysqldbLibrary"]
-	path = Projects/zampda_fe_abs_test/src/ZampMysqldbLibrary
-	url = ssh://git@git.dev.zamplus.com:7999/qa/zampmysqldblibrary.git
